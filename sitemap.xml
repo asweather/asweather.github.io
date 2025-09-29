@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://asweather.github.io/</loc>
+  <lastmod>2025-09-29T05:26:39+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://asweather.github.io/HOWUSE/</loc>
+  <lastmod>2025-09-29T05:02:26+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://asweather.github.io/Disclaimer/</loc>
+  <lastmod>2025-09-29T04:36:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://asweather.github.io/PRIVACY-POLICY-/</loc>
+  <lastmod>2025-09-28T06:12:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://asweather.github.io/Terms-Conditions/</loc>
+  <lastmod>2025-09-29T04:16:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://asweather.github.io/CONTACTUS/</loc>
+  <lastmod>2025-09-29T04:23:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://asweather.github.io/ABOUTUS/</loc>
+  <lastmod>2025-09-29T05:34:19+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://asweather.github.io/Disclaimer/index.html</loc>
+  <lastmod>2025-09-29T04:36:19+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>

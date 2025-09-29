@@ -837,7 +837,50 @@
         <button class="nav-btn" data-section="hourly"><i class="fas fa-clock"></i> Hourly</button>
         <button class="nav-btn" data-section="daily"><i class="fas fa-calendar-alt"></i> 7-Day</button>
     </div>
+<!-- FALLBACK CONTENT FOR GOOGLE & NO-JS USERS -->
+<noscript>
+  <div style="background: #f8f9fa; padding: 20px; margin: 20px 0; border-radius: 10px; border-left: 4px solid #4285f4;">
+    <h2>🌤️ AS Weather - Live Weather Forecast</h2>
+    <p><strong>📍 Location:</strong> Islamabad, Pakistan</p>
+    
+    <div style="margin: 15px 0;">
+      <h3>📊 Current Weather Features:</h3>
+      <ul>
+        <li>Real-time temperature & humidity</li>
+        <li>Wind speed & direction</li>
+        <li>Hourly weather predictions</li>
+        <li>7-day extended forecast</li>
+        <li>Weather alerts & notifications</li>
+      </ul>
+    </div>
 
+    <div style="margin: 15px 0;">
+      <h3>🕌 Prayer Times Features:</h3>
+      <ul>
+        <li>Accurate Islamic prayer schedules</li>
+        <li>Fajr, Dhuhr, Asr, Maghrib, Isha times</li>
+        <li>Location-based calculations</li>
+        <li>Monthly prayer calendars</li>
+      </ul>
+    </div>
+
+    <p><em>Enable JavaScript for live weather data and interactive features</em></p>
+  </div>
+</noscript>
+
+<!-- LOADING STATES (Visible until JavaScript loads) -->
+<div id="static-content" style="background: #e8f4fd; padding: 15px; margin: 15px 0; border-radius: 8px;">
+  <div id="weather-static">
+    <h3>🌤️ Loading Weather Data...</h3>
+    <p>Fetching current weather conditions for your location</p>
+    <p><strong>Typical weather for Islamabad:</strong> Mild temperatures, seasonal variations</p>
+  </div>
+
+  <div id="prayer-static" style="margin-top: 15px;">
+    <h3>🕌 Loading Prayer Times...</h3>
+    <p>Calculating today's Islamic prayer schedule</p>
+  </div>
+</div>
     <script>
         // DOM Elements
         const cityInput = document.getElementById('city-input');
@@ -1878,5 +1921,14 @@
             }
         });
     </script>
+    <script>
+// Hide static content when JavaScript loads
+document.addEventListener('DOMContentLoaded', function() {
+  var staticContent = document.getElementById('static-content');
+  if (staticContent) {
+    staticContent.style.display = 'none';
+  }
+});
+</script>
 </body>
 </html>
